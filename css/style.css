@@ -19,3 +19,74 @@ font-size: 100px;
 margin-left: 20px;
 
 }
+
+.allCharas {
+	float:left;
+	width: 5%;
+	
+}
+
+.allCharas img {
+	width: 100px;
+/*	padding: 1px;*/
+}
+
+h2 {
+	color: yellow;
+}
+
+.health {
+	font-family: 'Courier';
+	color: white;
+	font-size: 16px;
+	/*background: black;*/
+	border-radius: 10px;
+}
+
+
+.col-xs-1 {
+	width: 15%;
+}
+
+.col-xs-12{
+	padding: 0;
+}
+
+.btn-danger .btn-info {
+	margin: 5px;
+}
+
+/*.hero-img img {
+	width: 225px;
+	height: 300px;
+	border-color: white;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+}*/
+
+/*.foe-img img {
+	width: 225px;
+	height: 300px;
+	border-color: red;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+}
+
+.defeated img {
+	-webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+/*    filter: grayscale(100%);
+}
+*/
+
+
+#attack-btn {
+	vertical-align: bottom;
+}
+
+#reset-btn {
+	vertical-align: top;
+}
+*/
+	
