@@ -6,7 +6,7 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<!-- Bootstrap optional theme -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-    	<!-- Link to Google Fonts -->
+	<!-- Link to Google Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Krona+One|Nosifer" rel="stylesheet">
 	<!-- Link to Javascript file -->
 
@@ -16,67 +16,87 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 
 	<!-- Link to my Javascript -->
-	<script type="text/javascript" src="assets/javascript/game.js"></script>
-		
+	<script type="text/javascript" src="javascript/game.js"></script>
+
 	<title>Avengers RPG</title>
 </head>
 <body>
 
 	<h1>Avengers RPG</h1>
 
-<div class="container">
-		<div class="row">
-			<div class="col-xs-10">
-					<div class="col-xs-1 allCharas" id="captAmerica">
-						<img src="images/captAmerica.jpg">
-					</div>
-					<div class="col-xs-1 allCharas" id="hulk">
-						<img src="images/hulk.jpg">
-					</div>
-					<div class="col-xs-1 allCharas" id="ironMan">
-						<img src="images/ironMan.jpg">
-					</div>
-					<div class="col-xs-1 allCharas" id="thor">
-						<img src="images/thor.jpg">
-					</div>
-							
-					<div class="col-xs-1 allCharas" id="antMan">
-						<img src="images/antMan.jpg">
-					</div>
-					<div class="col-xs-1 allCharas" id="blackPanther">
-						<img src="images/blackPanther.jpg">
-					</div>
-				</div>
-		</div>
-	</div> 
-
+	<!-- <div class="container"> -->
 	<div class="row">
-		
-					<div class="col-xs-2">
-						<button type="button" class="btn btn-danger" id="attack-btn">ATTACK</button>
-					</div>
+		<div class="col-xs-10">
+			<div class="col-xs-1 allCharas" id="captAmerica">
+				<img class ="fighter" src="images/captAmerica.jpg">
+				<p id="captAmericaInfo"></p>
+			</div>
+			<div class="col-xs-1 allCharas" id="hulk">
+				<img class ="fighter" src="images/hulk.jpg">
+				<p id="hulkInfo"></p>
+			</div>
+			<div class="col-xs-1 allCharas" id="ironMan">
+				<img class ="fighter" src="images/ironMan.jpg">
+				<p id="ironManInfo"></p>
+			</div>
+			<div class="col-xs-1 allCharas" id="thor">
+				<img class ="fighter" src="images/thor.jpg">
+				<p id="thorInfo"></p>
+			</div>
+
+			<div class="col-xs-1 allCharas" id="antMan">
+				<img class ="fighter" src="images/antMan.jpg">
+				<p id="antManInfo"></p>
+			</div>
+			<div class="col-xs-1 allCharas" id="blackPanther">
+				<img class ="fighter" src="images/blackPanther.jpg">
+				<p id="blackPantherInfo"></p>
+			</div>
 		</div>
- 
+	</div>
+</div> 
+
+<div>
+	<p>
+		<h2>Your Character</h2>
+	</p>
+
 </div>
-</body>
-</html>
-  						
-				  			
-						
 
-	  				
-	 		
+<div id="enemies">
+	<h2>Enemies to Attack</h2>
+</div>
 
-	
+<div id="fight">
+	<h2>Fight Section</h2>
+</div>
 
-<!-- 	<audio autoplay="autoplay">
+<div class="row">
+
+	<div class="col-xs-2">
+		<button type="button" class="btn btn-danger" id="attack-btn">ATTACK</button>
+	</div>
+</div>
+
+<div id="defend">
+	<h2>Defender</h2>
+</div>
+
+<!-- <script>
+    $("#captAmerica").on("click" function() {
+       $("#enemies").append('<img id="#captAmerica" src="images/captAmerica.jpg" />');
+           });
+   
+
+
+</script>
+-->
+
+
+
+<!-- <audio autoplay="autoplay">
 		<source src="assets/images/i-want-to-play-a-game.mp3" type="audio/mpeg"> 
-	</audio>
-	
+		</audio> -->
 
-
-
-	
-	
-<
-</html>
+	</body>
+	</html>

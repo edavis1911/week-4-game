@@ -1,18 +1,16 @@
-var createImage = function(src, title) {
-  var img   = new Image();
-  img.src   = src;
-  img.alt   = title;
-  img.title = title;
-  return img; 
-};
-
-// array of images
-var images = [];
-
-// push two images to the array
-images.push(createImage("foo.jpg", "foo title"));
-images.push(createImage("bar.jpg", "bar title"));
+var captAmerica = {name: "Captain America", hp: 100, attack: 20, counter: 15};
+var hulk = {name: "Hulk", hp: 100, attack: 15, counter: 5,},
+var ironMan = {name: "Iron Man", hp: 100, attack: 20, counter: 10,},
+var thor = {name: "Thor", hp: 100, attack: 15, counter: 10,},
+var antMan = { name: "Ant Man", hp: 100, attack: 15, counter: 10,},
+var blackPanther = { name: "Black Panther", hp: 100, attack: 15, counter: 10,}
 
 
-// output
-console.log(images);
+
+$("#captAmericaInfo").prepend(captAmerica.name);
+
+$(document).ready(function() {
+$(".allCharas").on("click", function(){
+	$("#enemies").append($(this));
+		});
+});
